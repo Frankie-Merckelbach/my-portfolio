@@ -15,3 +15,22 @@ img {
     margin-right: -15px;
     margin-left: -15px;
 }
+.banner-title-2 {
+  margin-top: 1rem;
+  margin-left: 1px;
+  font-style: bold;
+}
+
+
+.cards {
+    display: -webkit-inline-box;
+    white-space: pre-line;
+    display: flex;
+    align-content:stretch;
+
+  }
+.acard {
+align-content:space-between;
+}
+
+.container .cards

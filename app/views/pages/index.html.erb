@@ -5,17 +5,15 @@
 
   <div class="responsive-nav">
     <div class="logo">
-      <img src="frankie-logo.png" alt="logo">
-   </div>
+      <%= image_tag "logo5.png" %>
+     </div>
    <div class="menu">
      <h4>menu</h4>
    </div>
  </div>
-
-
     <nav class="white">
         <div class="logo">
-          <img src="frankie-logo.png">
+      <%= image_tag "logo5.png" %>
         </div>
         <ul>
             <li><a href="#section-1">Experiences</a></li>
@@ -26,71 +24,59 @@
         </ul>
       </nav>
 
-    <div class="banner">
+      <div class="banner">
         <div class="container">
           <h1 class="banner-title-1">Frankie Merckelbach</h1>
-            <h2 class="banner-title-2">Product Manager
-          <!--<span
-              class="txt-rotate"
-              data-period="2200"
-              data-rotate='[ "Acquisition Manager.", "Growth Manager."]'></span>-->
-          </h2>
+            <h3 class="banner-title-2">Product Manager</h3>
+
           <a class="btn btn-outline-custom1" href="#section-0"> View More </a>
           <a class="btn btn-outline-custom2" href="mailto:frankiemerckelbach@gmail.com"> Let's Talk</a>
         </div>
       </div>
 
-      <section id="intro">
-        <a id="section-0"></a>
-         <div class="container">
-          <div class="cards">
-            <div class="acard">
-              <img src="#" alt="">
-              <h4> Creative Mindset</h4>
+        <section id="intro">
+          <a id="section-0"></a>
+           <div class="container">
+            <div class="cards">
+              <div class="acard">
+                <img src="#" alt="">
+                <h4> Creative Mindset</h4>
+              </div>
+              <div class="acard">
+                <img src="#" alt="">
+                  <h4>Operational and Product Manager</h4><h4>
+              </h4></div>
+              <div class="acard">
+                <img src="#" alt="">
+                <h4>Development & Arts</h4><h4>
+              </h4></div>
             </div>
-            <div class="acard">
-              <img src="#" alt="">
-                <h4>Operational and Product Manager</h4><h4>
-            </h4></div>
-            <div class="acard">
-              <img src="#" alt="">
-              <h4>Development & Arts</h4><h4>
-            </h4></div>
-          </div>
-         </div>
+           </div>
         </section>
         <hr align="center" width="80%" color="#fafafa" size="0.5">
         <a id="section-0"></a>
 
         <section id="about-me">
-   <div class="container">
-    <h1 class="about-title">About Me</h1>
-     <div class="row">
-        <div class="col-sm-5 col-md-5">
-             <img src="/images/frankie2.jpg" class="avatar-large">
-        </div>
-
-        <div class="col-sm-7 col-md-7">
-              <p class="about-paragraph">Graduated with a Bachelor degree in Cultural Heritage and a degree in Fullstack Development</p>
-
-              <p class="about-paragraph">Background in product and project management, mainly in the Art-Industry (2013/2017).</p>
-
-              <p class="about-paragraph">After more than amazing entrepreneurial experiences in the creative industry, I am keen to join a fully tech company as a Product Manager or Owner.</p>
-
-              <p class="about-paragraph">Thats why during Corona, I decided to add more to my technical knowledge and learn more about the technical possibilities</p>
-
-              <p class="about-paragraph">So, I've completed <a href="https://www.lewagon.com/" class="about-link">Le Wagon</a> coding bootcamp (Amsterdam, Batch #449 - july 2020) to add technical skills to my creative profile (HTML, CSS, Bootstrap, Javascript, RubyOnRails) and finished the <a href="https://growthmakers.fr/" class="about-link">Growth Makers University</a>, a fullstack program in Growth Hacking (Process &amp; Roadmap Growth, Data Analytics, User Psychology, AARRR Funnel) 🚀</p>
-
-             <p class="about-paragraph">Currently working as freelance Project Manager and Front-End Developer, And I am looking for a new challenge!</p>
-
-          <a href="contact.html" class="btn btn-outline-custom4" role="button">LET'S TALK</a>
-         </div>
-
-         </div>
-       </div>
-  </div></section>
-
-
+          <div class="container">
+           <h1 class="about-title">About Me</h1>
+            <div class="row">
+              <div class="col-sm-5 col-md-5">
+                <div class="avatar-large">
+                  <%= image_tag "frankie2 2.jpg", class:'image1' %>
+                </div>
+              </div>
+                <div class="col-sm-7 col-md-7" id="about-paragraph-box">
+                  <p class="about-paragraph">Graduated with a Bachelor degree in Cultural Heritage and a degree in Fullstack Development</p>
+                  <p class="about-paragraph">Background in product and project management, mainly in the Art-Industry (2013/2017).</p>
+                  <p class="about-paragraph">After more than amazing entrepreneurial experiences in the creative industry, I am keen to join a fully tech company as a Product Manager or Owner.</p>
+                  <p class="about-paragraph">Thats why during Corona, I decided to add more to my technical knowledge and learn more about the technical possibilities</p>
+                  <p class="about-paragraph">So, I've completed <a href="https://www.lewagon.com/" class="about-link">Le Wagon</a> coding bootcamp (Amsterdam, Batch #449 - july 2020) to add technical skills to my creative profile (HTML, CSS, Javascript, RubyOnRails).</p>
+                  <p class="about-paragraph">Currently working as freelance Project Manager and Front-End Developer, And I am looking for a new challenge!</p>
+                  <a href="contact.html" class="btn btn-outline-custom4" role="button">LET'S TALK</a>
+                </div>
+            </div>
+          </div>
+        </section>
   <%= link_to "Get to know me", about_path %>
   <%= link_to "Let's Talk", contact_path %>
 

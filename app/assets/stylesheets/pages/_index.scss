@@ -1,6 +1,5 @@
 .container {
   // max-height: 100%;
-  // background-color: $other-pink;
   // margin: auto;
   // max-width: 100%;
   padding-right: 15px;
@@ -12,10 +11,13 @@
 body {
   font-size: 14px;
   line-height: 1.4;
-  color: #333;
-  background-color: #fff;
-}
+  color: white;
+  background-color: #fbdcc4;
 
+}
+h1 {
+  font-weight: 800;
+}
 
 .container-home {
   // background-color: $my-blue;
@@ -52,26 +54,32 @@ nav.white {
   z-index: 2;
   border-bottom: 1px solid #cecece;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  text-decoration: none;
 }
 
 nav.white .logo img {
     transition: .5S;
-    height: 50px;
+    height: 70px;
     padding-top: 5px;
 }
 
 
 
+#about-paragraph-box {
+  margin-top: 10px;
+  font-size: 16px;
+}
 // body .btn {
 //   border: 2px pink solid!important;
 // }
 
 .banner {
-    background: linear-gradient(to left bottom, #ff3f98, #e97171, #ffc7c7, #ffe2e2, #f6f6f6);
+    // background: linear-gradient(to left bottom, #ff3f98, #e97171, #ffc7c7, #ffe2e2, #f6f6f6);
+    background: linear-gradient(to left bottom, #31112c, #7d0633, #f2a07b, #fbdcc4, #ffe2e2);
     background-size: cover;
     background-position: center;
     padding-top: 190px;
-    padding-bottom: 170px;
+    padding-bottom: 220px;
 }
 
 nav ul {
@@ -79,8 +87,37 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    list-style-type: none;
 }
 ol, ul, dl {
     margin-top: 0;
     margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+ }
+
+nav ul li a {
+    line-height: 50px;
+    color: $my-red;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#intro {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    }
+
+.image1 {
+  width: 435px;
 }
