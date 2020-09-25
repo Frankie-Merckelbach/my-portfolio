@@ -1,0 +1,5 @@
+meta_product_name: "Portfolio"
+meta_title: "Frankie Merckelbach - Professional Portfolio"
+meta_description: "Hi! My name is Frankie Merckelbach and welcome to my professional portfolio page! This page is created to share my professional abillities within web development, productmanagement and creative acuiries"
+meta_image: "frankie2 2.jpg" # should exist in `app/assets/images/`
+# linkedin_account: "@product_linkedin_account"   # required for Twitter Cards
