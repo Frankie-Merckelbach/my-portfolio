@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action only: [ :home, :about, :contact]
+  # skip_before_action only: [ :home, :about, :contact]
 
   def about
   end

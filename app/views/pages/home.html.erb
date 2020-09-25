@@ -2,7 +2,6 @@
  -->
  <body>
 
-
   <div class="responsive-nav">
     <div class="logo">
       <%= image_tag "logo5.png" %>
@@ -11,6 +10,7 @@
      <h4>menu</h4>
    </div>
  </div>
+
     <nav class="white">
         <div class="logo">
       <%= image_tag "logo5.png" %>
@@ -33,23 +33,31 @@
           <a class="btn btn-outline-custom2" href="mailto:frankiemerckelbach@gmail.com"> Let's Talk</a>
         </div>
       </div>
-
+<!--  <div class="col-sm-6  col-lg-12">
+ -->
         <section id="intro">
           <a id="section-0"></a>
            <div class="container">
             <div class="cards">
               <div class="acard">
-                <img src="#" alt="">
-                <h4> Creative Mindset</h4>
+                <div class="img">
+                <%= image_tag "creativity.png" %></div>
+
+                <h4 class="text-banner">Creativity</h4>
               </div>
               <div class="acard">
-                <img src="#" alt="">
-                  <h4>Operational and Product Manager</h4><h4>
+                <div class="img">
+                <%= image_tag "product.png" %>
+                </div>
+                  <h4 class="text-banner">Operational & Product Manager</h4><h4>
               </h4></div>
               <div class="acard">
-                <img src="#" alt="">
-                <h4>Development & Arts</h4><h4>
-              </h4></div>
+                <div class="img">
+                <%= image_tag "webdevelopment.png" %>
+                </div>
+
+                <h4 class="text-banner">Webdesign & Development</h4>
+                <h4></h4></div>
             </div>
            </div>
         </section>
@@ -60,7 +68,7 @@
           <div class="container">
            <h1 class="about-title">About Me</h1>
             <div class="row">
-              <div class="col-sm-5 col-md-5">
+              <div class="col-sm-4 col-md-5">
                 <div class="avatar-large">
                   <%= image_tag "frankie2 2.jpg", class:'image1' %>
                 </div>
@@ -75,11 +83,13 @@
                   <a href="contact.html" class="btn btn-outline-custom4" role="button">LET'S TALK</a>
                 </div>
             </div>
-          </div>
-        </section>
+              <div class="pages-link">
   <%= link_to "Get to know me", about_path %>
   <%= link_to "Let's Talk", contact_path %>
+  </div>
+          </div>
+        </section>
 
-</body>
+  </body>
 <!-- </div>
  -->

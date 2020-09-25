@@ -23,14 +23,62 @@ img {
 
 
 .cards {
-    display: -webkit-inline-box;
-    white-space: pre-line;
-    display: flex;
-    align-content:stretch;
+  // display: -webkit-inline-box;
+  // white-space: pre-line;
+  display: flex;
+  justify-content: space-around;
+  color:  $my-orange;
 
-  }
+}
+h4.cards {
+  font-size: 1rem!important;
+}
+    // align-content:stretch;
+
 .acard {
-align-content:space-between;
+  align-content: space-between;
+    padding-top: 20px;
+
+}
+.img.acard {
+   width: 50px;
+    padding-bottom: 10px;
+
+}
+img.img.cards {
+  height: 200px!important;
+  vertical-align: middle;
+
 }
 
-.container .cards
+.text-banner {
+    font-size: 1rem!important;
+
+}
+// .container .cards
+
+#about-me {
+  margin-top: 30px;
+
+}
+
+#about-paragraph-box {
+ color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  padding-left: 61px;
+  padding-right: 30px;
+
+}
+p.about-paragraph {
+  font-weight: 600!important;
+  font-family:'Raleway', sans-serif!important;
+
+}
+
+.about-title {
+  font-weight: 700;
+  font-family:'Raleway', sans-serif!important;
+  margin-bottom: 20px;
+
+}

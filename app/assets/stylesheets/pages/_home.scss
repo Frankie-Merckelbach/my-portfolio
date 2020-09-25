@@ -16,7 +16,8 @@ body {
 
 }
 h1 {
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 2.8rem;
 }
 
 .container-home {
@@ -64,22 +65,17 @@ nav.white .logo img {
 }
 
 
-
-#about-paragraph-box {
-  margin-top: 10px;
-  font-size: 16px;
-}
-// body .btn {
-//   border: 2px pink solid!important;
-// }
-
 .banner {
     // background: linear-gradient(to left bottom, #ff3f98, #e97171, #ffc7c7, #ffe2e2, #f6f6f6);
     background: linear-gradient(to left bottom, #31112c, #7d0633, #f2a07b, #fbdcc4, #ffe2e2);
     background-size: cover;
     background-position: center;
-    padding-top: 190px;
-    padding-bottom: 220px;
+    padding-top: 220px;
+    padding-bottom: 140px;
+}
+.banner-title-2 {
+  font-size: 27px;
+  font-weight: 400;
 }
 
 nav ul {
@@ -98,26 +94,68 @@ ol, ul, dl {
 li {
     text-align: -webkit-match-parent;
     list-style-type: none;
+    margin-top: 16px;
+    padding-inline-start: 79px;
+
  }
 
 nav ul li a {
-    line-height: 50px;
-    color: $my-red;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    padding: 5px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: .5s;
+  line-height: 50px;
+  color: $my-red;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s;
+  border-left: 1px solid $my-orange;
+  border-right: 1px solid $my-orange;
+  border-radius: 3px;
+    // box-shadow:  rgba(0,0,0,0.1);
+  border-spacing: 10px;
 }
 
 #intro {
     background-color: #f6f6f6;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     }
 
 .image1 {
   width: 435px;
+}
+
+.btn {
+  // border-color: #ffe2e2;
+  border: solid 2px white;
+  color: white!important;
+  // color: #ffe2e2!important;
+  font-family:'Raleway', sans-serif!important;
+  font-weight: 600;
+  border-radius: 13px!important;
+  margin-top: 15px;
+  padding: 7px 20px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.1), 4px 4px 6px rgba(0,0,0,0.3);
+  line-height: 1.42857143;
+  font-size: 0.9rem!important;
+  letter-spacing: 0.5px;
+}
+
+
+.btn.btn-outline-custom1 {
+  margin-right: 10px
+}
+
+.pages-link {
+    display: flex;
+    justify-content: space-around;
+    margin: 36px;
+    font-size: 17px;
+    text-decoration: underline;
+  }
+
+a.pages-link {
+  color: $my-orange!important;
+
 }
