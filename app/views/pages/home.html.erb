@@ -2,32 +2,12 @@
  -->
  <body>
 
-  <div class="responsive-nav">
-    <div class="logo">
-      <%= image_tag "logo5.png" %>
-     </div>
-   <div class="menu">
-     <h4>menu</h4>
-   </div>
- </div>
 
-    <nav class="white">
-        <div class="logo">
-      <%= image_tag "logo5.png" %>
-        </div>
-        <ul>
-            <li><a href="#section-1">Experiences</a></li>
-            <li><a href="#section-3">Certifications</a></li>
-            <li><a href="#section-2">Skills</a></li>
-            <li><a href="#section-4">Interest</a></li>
-           <li><a href="contact.html" class="contact">Contact</a></li>
-        </ul>
-      </nav>
 
       <div class="banner">
         <div class="container">
           <h1 class="banner-title-1">Frankie Merckelbach</h1>
-            <h3 class="banner-title-2">Product Manager</h3>
+            <h3 class="banner-title-2">Digital product agent who focuses on strategy, design and creative solutions.</h3>
 
           <a class="btn btn-outline-custom1" href="#section-0"> View More </a>
           <a class="btn btn-outline-custom2" href="mailto:frankiemerckelbach@gmail.com"> Let's Talk</a>
@@ -55,7 +35,6 @@
                 <div class="img">
                 <%= image_tag "webdevelopment.png" %>
                 </div>
-
                 <h4 class="text-banner">Webdesign & Development</h4>
                 <h4></h4></div>
             </div>
@@ -84,12 +63,15 @@
                 </div>
             </div>
               <div class="pages-link">
-  <%= link_to "Get to know me", about_path %>
-  <%= link_to "Let's Talk", contact_path %>
-  </div>
+              <%= link_to "Get to know me", about_path %>
+              <%= link_to "Let's Talk", contact_path %>
+            </div>
           </div>
+
         </section>
 
   </body>
+                  <%= render 'shared/footer' %>
+
 <!-- </div>
  -->

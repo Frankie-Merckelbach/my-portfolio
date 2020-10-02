@@ -12,7 +12,7 @@ body {
   font-size: 14px;
   line-height: 1.4;
   color: white;
-  background-color: #fbdcc4;
+  background-color: #1e5f74;
 
 }
 h1 {
@@ -23,51 +23,13 @@ h1 {
 .container-home {
   // background-color: $my-blue;
   height: 400px;
-  ;
 }
-
-.logo {
-  vertical-align: middle;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px!important;
-    padding: 10px 100px;
-    transition: .5S;
-}
-
-nav .logo {
-    float: left;
-    padding-left: 40px;
-}
-
-.responsive-nav {
-  display: none;
-}
-
-nav.white {
-  background: white;
-  height: 70px;
-  z-index: 2;
-  border-bottom: 1px solid #cecece;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  text-decoration: none;
-}
-
-nav.white .logo img {
-    transition: .5S;
-    height: 70px;
-    padding-top: 5px;
-}
-
 
 .banner {
     // background: linear-gradient(to left bottom, #ff3f98, #e97171, #ffc7c7, #ffe2e2, #f6f6f6);
-    background: linear-gradient(to left bottom, #31112c, #7d0633, #f2a07b, #fbdcc4, #ffe2e2);
+    // background: linear-gradient(to left bottom, #31112c, #7d0633, #f2a07b, #fbdcc4, #ffe2e2);
+    background: linear-gradient(to left bottom, #1a1a2e, #1d2d50, #133b5c, #1e5f74, #fcdab7);
+
     background-size: cover;
     background-position: center;
     padding-top: 220px;
@@ -78,52 +40,11 @@ nav.white .logo img {
   font-weight: 400;
 }
 
-nav ul {
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-}
+
 ol, ul, dl {
     margin-top: 0;
     margin-bottom: 1rem;
     list-style-type: none;
-}
-
-li {
-    text-align: -webkit-match-parent;
-    list-style-type: none;
-    margin-top: 16px;
-    padding-inline-start: 79px;
-
- }
-
-nav ul li a {
-  line-height: 50px;
-  color: $my-red;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-  padding: 5px 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: .5s;
-  border-left: 1px solid $my-orange;
-  border-right: 1px solid $my-orange;
-  border-radius: 3px;
-    // box-shadow:  rgba(0,0,0,0.1);
-  border-spacing: 10px;
-}
-
-#intro {
-    background-color: #f6f6f6;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    }
-
-.image1 {
-  width: 435px;
 }
 
 .btn {
@@ -159,3 +80,5 @@ a.pages-link {
   color: $my-orange!important;
 
 }
+
+
