@@ -1,0 +1,78 @@
+#intro {
+    background-color: #f6f6f6;
+    padding-top: 20px;
+    padding-bottom: 30px;
+      max-width: auto;
+    align-content: responsive;
+    }
+
+
+
+.image1 {
+  width: 435px;
+}
+
+.cards {
+  // display: -webkit-inline-box;
+  // white-space: pre-line;
+  display: flex;
+  justify-content: space-around;
+  color: #1d2d50;
+
+}
+h4.cards {
+  font-size: 1rem!important;
+}
+    // align-content:stretch;
+
+.acard {
+padding-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.img.acard {
+   width: 50px;
+    padding-bottom: 10px;
+
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+
+}
+
+
+img.img.cards {
+  height: 200px!important;
+  vertical-align: middle;
+
+
+}
+.acard img {
+    width: 50px;
+    padding-bottom: 10px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
