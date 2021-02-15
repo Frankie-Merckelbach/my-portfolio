@@ -12,7 +12,7 @@ body {
   font-size: 14px;
   line-height: 1.4;
   color: white;
-  background-color: #1e5f74;
+  background-color: #162447;
 
 }
 h1 {
@@ -28,7 +28,9 @@ h1 {
 .banner {
     // background: linear-gradient(to left bottom, #ff3f98, #e97171, #ffc7c7, #ffe2e2, #f6f6f6);
     // background: linear-gradient(to left bottom, #31112c, #7d0633, #f2a07b, #fbdcc4, #ffe2e2);
-    background: linear-gradient(to left bottom, #1a1a2e, #1d2d50, #133b5c, #1e5f74, #fcdab7);
+    // background: linear-gradient(to left bottom, #1a1a2e, #1d2d50, #133b5c, #1e5f74, #fcdab7);
+    background: linear-gradient(to left bottom, #010C43, #162547,#1a1a2e, #162547,  #ff75a0,);
+
 
     background-size: cover;
     background-position: center;
@@ -74,10 +76,11 @@ ol, ul, dl {
     margin: 36px;
     font-size: 17px;
     text-decoration: underline;
+    color: white!important;
   }
 
 a.pages-link {
-  color: $my-orange!important;
+  // color: $my-orange!important;
 
 }
 

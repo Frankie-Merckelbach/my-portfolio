@@ -51,3 +51,22 @@ p.about-paragraph {
   margin-bottom: 20px;
 
 }
+
+.pages-link a{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 28px;
+  text-decoration: none!important;
+  font-style: none;
+  font-size: 16px;
+}
+
+.pages-link a:hover {
+    color: #ff75a0;
+    text-decoration: underline;
+  }
+
+.about-link {
+  color: #ff75a0;
+}
